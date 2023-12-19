@@ -6,14 +6,16 @@ export default function MyTask4() {
 
     const changeStatus=()=>{
         console.log(status);
-        if(status)
-        {
-            setStatus(status = false)
-        }
-        else
-        {
-            setStatus(status = true)
-        }
+        setStatus(!status)
+        // if(status)
+        // {
+        //     setStatus(status = false)
+        //     // setStatus(!status)
+        // }
+        // else
+        // {
+        //     setStatus(status = true)
+        // }
     }
   return (
     <div style={{backgroundColor : status? "blue" : "black"}}>

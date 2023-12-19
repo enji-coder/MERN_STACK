@@ -1,11 +1,12 @@
 import { useState } from "react";
+
+
 export default function MyTask5() {
   const colorList = ["red","blue","purple","black","yellow"];
   let [colorcount,setColor] = useState(0)
-  let [displayproperty,setDisplay] = useState("block");
   const changeColor=()=>{    
 
-      if(colorcount<colorList.length || colorcount!=5)
+      if(colorcount<colorList.length || colorcount!=6)
       {
         setColor(colorcount+1)
       }
@@ -14,19 +15,19 @@ export default function MyTask5() {
           let res = confirm("do you want to continue select ok ");
           if (res)
           {
-            setColor(0)
+            setColor(colorcount+1)
           }
           else
           {
-            setColor(0);
-            setDisplay("none");
+            setColor(0)
           }
       }
   }
+  
   return (
     <div style={{backgroundColor:colorList[colorcount],minHeight:"100px"}}>
         <h1>{colorcount}</h1>
-        <button style={{display:displayproperty}} onClick={changeColor}>Change Color From Array </button>
+        <button onClick={changeColor}>Change Color From Array </button>
     </div>
   )
 }
