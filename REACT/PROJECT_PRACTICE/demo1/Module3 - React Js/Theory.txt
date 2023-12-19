@@ -1,0 +1,13 @@
+1) what is React js ? 
+=> React Js is a javascript library which is used to development interactive website 
+
+   Using of react we can develop SPA - single page application 
+
+   which is developed by facebook community.
+
+2) what is NPM in React js ? 
+=> NPM stands for Node Package manager.
+   Using of NPM we can install any free dependency or Package
+
+3) What is Role of Node js in React - js ? 
+=> 
