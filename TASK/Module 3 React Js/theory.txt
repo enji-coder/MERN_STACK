@@ -1,0 +1,124 @@
+1) what is React js ? 
+=>  React js is a free open source javascript library 
+    which is developed by facebook 
+    Using of react js we can build UI components 
+    Using of react js we can develope single page application.
+
+2) what is NPM in React Js ? 
+=>  NPM : node package manager 
+    Using of NPM we can manage package for application 
+    We can install package as per the need for application 
+
+3) What is Role of Node Js in react Js? 
+=>  React working frontend side and node working backend side 
+    React which is used to render components frontend side and node manage server side 
+    data
+
+    Using of node js we can develope api and easily use in react js frontend side 
+
+    Using of React we can develop Single Page application and using of node js 
+    we can build backend side model for async data using of promise and callback 
+
+    Using of node and react we can develop higher level application 
+
+4) What is CLI command In React Js? 
+=>  React has its own CLI command line interface.
+
+    to create project : 
+            npx create-react-app <appname> 
+            npm start 
+
+5) What is Components in React Js? 
+=>   Components are piece of code which can use anytime anywhere in application.
+    Using of components we can devide website in different different part.
+
+    there are 2 types of components in react js 
+
+    1) function components 
+    2) class components 
+
+    component name first character always start with capital letter.
+
+    to create function component need to use function keyword.
+
+    e.g.   function MyFun()
+        {
+            return <h1>Hello Function </h1>;
+        }
+    
+    to create class components need to extend from React.Component
+
+    e.g..  class MyClass extends React.Component
+            {
+                render() 
+                {
+                    return <h1>Class Component</h2>;
+                }
+            }
+
+6) What is Header and Content Components in React Js? 
+=>  Header and Content Components both are work for structure webapplication design 
+    Header component which is use to create headerbar of website 
+
+    which is mainly contain navbar , website login and title etc.. 
+
+    Content components which is contain main content of the website and other information such as images , text etc.. 
+
+    both are require to create structural website design 
+
+7) How to install React Js on Windows, linux Operating System? How
+    to install NPM and How to check version of NPM? 
+=>  
+    Windows : 
+
+            first of all need to install node latest version from the official website of node
+
+            after installation of node 
+
+            #node -v (to check version of node in cmd )
+
+            to install react js in syste, 
+
+            #npm install -g create-react-app  (-g which is use to install react js globally)
+
+            to check version of react 
+
+            #create-react-app -version
+
+            -> we can direct create application using of 
+
+            npx create-react-app  <appname> 
+
+            -> to install npm 
+            
+            #npm install -g npm  (but when we install node by default it will add npm)
+
+            -> check version of npm 
+
+            #npm -version
+
+    Linux or ubantu : 
+
+            login using super admin 
+
+            #sudo apt install npm 
+
+            #npm --version 
+
+            #sudo npm -g install create-react-app
+
+            #create-react-app --version
+
+            -> create application in ubantu or linux 
+
+            #create-react-app myapp 
+            #cd myapp 
+            #npm start 
+            
+
+
+
+
+
+    
+
