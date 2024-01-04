@@ -10,4 +10,4 @@ export default function App(){
         <Task2/>
     </div>
   );
-}
+} 
