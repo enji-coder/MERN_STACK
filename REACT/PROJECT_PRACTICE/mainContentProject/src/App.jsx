@@ -2,7 +2,7 @@
 import ALLINONE from "./1.Components/ALLINONE";
 import Router from "./10.Routing/SimpleRouting/Router";
 import SIMPLEROUTING_EXAMPLE from "./10.Routing/SimpleRouting/SIMPLEROUTING_EXAMPLE";
-import SIMPLEROUTING2 from "./10.Routing/SimpleRouting2/SIMPLEROUTING2";
+import DYNAMICROUTING from "./10.Routing/DynamicRouting/DYNAMICROUTING";
 import MainBody from "./2.Style/MainBody";
 import STATEEXAMPLE from "./3.State/STATEEXAMPLE";
 
@@ -24,8 +24,8 @@ export default function App(){
       {/* Simple Routing Example */}
       {/* <SIMPLEROUTING_EXAMPLE/> */}
 
-      {/* Proper navigation bar example with simple routing */}
-      <SIMPLEROUTING2/>
+      {/* Proper navigation bar example with dynamic routing  and nested routing */}
+      <DYNAMICROUTING/>
     </div>
   )
 }

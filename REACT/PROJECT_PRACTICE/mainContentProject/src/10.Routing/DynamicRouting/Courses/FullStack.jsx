@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-export default function Contact() {
+export default function FullStack() {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>FullStack</h1>
     </div>
   )
 }

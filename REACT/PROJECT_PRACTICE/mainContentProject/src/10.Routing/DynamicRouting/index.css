@@ -1,8 +1,10 @@
 a {
     text-decoration: none;
-  }
-  
+}
 .active {
     font-weight: bolder;
     color: white;
+}
+.ul_link li:hover{
+    color: purple;
 }

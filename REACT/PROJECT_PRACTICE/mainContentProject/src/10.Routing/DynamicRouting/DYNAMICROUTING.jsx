@@ -2,7 +2,7 @@
 import React from 'react'
 import Router from './Router'
 
-export default function SIMPLEROUTING2() {
+export default function DYNAMICROUDING() {
   return (
     <div>
       <Router/>
