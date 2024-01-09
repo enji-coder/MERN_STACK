@@ -1,15 +1,17 @@
 /* eslint-disable no-unused-vars */
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { Table } from 'reactstrap';
 
 export default function Products() {
   let [data, setData] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios({
       method: "get",
-      url: "https://fakestoreapi.com/products",
+      url: "https://fakestoreapi.com/products/",
     }).then((res) => {
       console.log(res.data);
       setData(res.data);
@@ -30,6 +32,8 @@ export default function Products() {
             <th>Image</th>
             <th>Title</th>
             <th>Ratting</th>
+            <th>Action</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -43,6 +47,9 @@ export default function Products() {
                   </td>
                   <td>{e.title}</td>
                   <td>{e.rating.rate}</td>
+                  <td>
+                    <button onClick={()=>navigate(`${e.id}`)} color='blue'>View</button>
+                  </td>
                 </tr>
               );
             })

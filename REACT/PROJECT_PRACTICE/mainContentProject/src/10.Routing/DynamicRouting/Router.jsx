@@ -9,6 +9,7 @@ import Course from './Courses/Course'
 import FrontEnd from './Courses/FrontEnd'
 import FullStack from './Courses/FullStack'
 import Products from './RealExampleDynamicRouting/Products'
+import ProductDetails from './RealExampleDynamicRouting/ProductDetails'
 export default function Router() {
   return (
     <div>
@@ -29,6 +30,7 @@ export default function Router() {
                 </Route>
 
                 <Route path='/products' Component={Products}/>
+                <Route path='/products/:id' Component={ProductDetails}/>
 
             </Routes>
         </BrowserRouter>

@@ -11,7 +11,9 @@ export default function Header() {
         <div>
             <Navbar className="my-2" color="dark" dark>
                 <NavbarBrand>
-                    <NavLinkStrap><NavLink to={"/"}>Home</NavLink></NavLinkStrap>   
+                    
+                        <NavLink to={"/"}>Home</NavLink>
+                    
                 </NavbarBrand>
                 <NavbarBrand>
                     <NavLink to={"/about"}>About Us</NavLink>
