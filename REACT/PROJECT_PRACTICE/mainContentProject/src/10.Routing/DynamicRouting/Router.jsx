@@ -8,6 +8,7 @@ import Header from './Header'
 import Course from './Courses/Course'
 import FrontEnd from './Courses/FrontEnd'
 import FullStack from './Courses/FullStack'
+import Products from './RealExampleDynamicRouting/Products'
 export default function Router() {
   return (
     <div>
@@ -15,7 +16,7 @@ export default function Router() {
             <Header/>
             <Routes>
                 <Route path='/' Component={Home}/>
-                
+
                 {/* dynamic routing - send data from one route to another route */}
                 <Route path='/about/:name' Component={About}/>
 
@@ -26,6 +27,8 @@ export default function Router() {
                       <Route path='frontend' Component={FrontEnd}/>
                       <Route path='fullstack' Component={FullStack}/>
                 </Route>
+
+                <Route path='/products' Component={Products}/>
 
             </Routes>
         </BrowserRouter>

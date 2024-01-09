@@ -22,6 +22,9 @@ export default function Header() {
                 <NavbarBrand>
                     <NavLink to={"/course"}>Courses</NavLink>
                 </NavbarBrand>
+                <NavbarBrand>
+                    <NavLink to={"/products"}>Products</NavLink>
+                </NavbarBrand>
             </Navbar>
 
 {/* <Nav fill justified pills tabs>
