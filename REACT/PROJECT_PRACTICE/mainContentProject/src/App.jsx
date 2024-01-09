@@ -5,6 +5,7 @@ import SIMPLEROUTING_EXAMPLE from "./10.Routing/SimpleRouting/SIMPLEROUTING_EXAM
 import DYNAMICROUTING from "./10.Routing/DynamicRouting/DYNAMICROUTING";
 import MainBody from "./2.Style/MainBody";
 import STATEEXAMPLE from "./3.State/STATEEXAMPLE";
+import MainData from "./EcommerceApi/MainData";
 
 
 export default function App(){
@@ -25,7 +26,11 @@ export default function App(){
       {/* <SIMPLEROUTING_EXAMPLE/> */}
 
       {/* Proper navigation bar example with dynamic routing  and nested routing */}
-      <DYNAMICROUTING/>
+      {/* <DYNAMICROUTING/> */}
+
+
+      {/* E-Commerce Api Example*/}
+      <MainData/>
     </div>
   )
 }
